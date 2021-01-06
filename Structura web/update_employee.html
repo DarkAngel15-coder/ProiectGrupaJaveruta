@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <title>New employee</title>
+</head>
+
+<body>
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link" href='index.html'>Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href='about_us.html'>About us</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href='job_applications.html'>Search for jobs</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href='locations.html'>Our locations</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href='administarator.html'>Login</a>
+        </li>
+    </ul>
+
+    <br>
+
+    <div class="container">
+        <h2>Update information</h2>
+        <form action="/action_page.php" method="POST">
+            <div class="form-group">
+                <label for="last">First name:</label>
+                <input type="text" class="form-control" id="first" placeholder="First name" name="first" required>
+            </div>
+            <div class="form-group">
+                <label for="last">Last name:</label>
+                <input type="text" class="form-control" id="last" placeholder="Last name" name="last" required>
+            </div>
+            <div class="form-group">
+                <label for="phone_ro">Phone number - RO:</label>
+                <input type="number" class="form-control" id="phone_ro" placeholder="Phone number - RO" name="phone_ro"
+                    required>
+            </div>
+            <div class="form-group">
+                <label for="phone_de">Phone number - DE:</label>
+                <input type="number" class="form-control" id="phone_de" placeholder="Phone number - DE" name="phone_de"
+                    required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="Email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="position">Position held:</label>
+                <input type="text" class="form-control" id="position" placeholder="Position held" name="position"
+                    required>
+            </div>
+            <div class="form-group">
+                <label for="description">Description:</label>
+                <textarea name="description" class="form-control" id="description" style="width:1107px; height:200px;"
+                    placeholder="Description"></textarea>
+            </div>
+            <button class="btn btn-success" type="submit" name="update">Update</button>
+        </form>
+    </div>
+</body>
+
+</html>
