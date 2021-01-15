@@ -1,0 +1,58 @@
+@charset "ISO-8859-1";
+.button {
+  background-color: #2C49F3; 
+  border-color: #2C49F3;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 6px 12px;
+  margin-left: 160px;
+  margin-top: 240px;
+  cursor: pointer;
+  width: 40%;
+}
+
+.button4 
+{
+	border-radius: 14px;
+}
+
+.button4:hover 
+{
+	background-color: white;
+	color: purple;
+}
+
+.span
+{
+	margin-left: 150px;
+}
+
+.span1
+{
+	margin-top: 50px;
+	margin-left: 150px;
+	text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 1px;
+}
+
+.span2
+{
+	text-align: center;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   height: 10%;
+   width: 100%;
+   background-color: black;
+   color: red;
+   text-align: center;
+}

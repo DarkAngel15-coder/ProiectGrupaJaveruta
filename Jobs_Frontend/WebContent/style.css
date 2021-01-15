@@ -1,0 +1,19 @@
+@charset "ISO-8859-1";
+.background
+{
+	background-image: url(red.png);
+	background-repeat: no-repeat, repeat;
+	height: 1080px;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+}
+.center
+{
+	text-align: center;
+	margin-bottom: 50px;
+}
+.brand{
+    color: orangered;
+    color: red;
+}
