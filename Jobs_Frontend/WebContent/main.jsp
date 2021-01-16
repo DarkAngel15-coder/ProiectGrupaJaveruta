@@ -33,6 +33,15 @@
           font-size: 3.5rem;
         }
       }
+       h1 {
+    -webkit-text-stroke: 0.3px black;
+    -webkit-text-fill-color: white;
+  	}
+  	p{
+    -webkit-text-stroke: 0.1px black;
+    -webkit-text-fill-color: white;
+  	}
+  	
     </style>
 
     
@@ -56,8 +65,8 @@
 	                <li class="nav-item">
 	                <a class="nav-link" href="index.jsp" >Home</a>
 	                </li>
-	                <li class="nav-item ">
-	                    <a class="nav-link">About us<span class="sr-only">(current)</span></a>
+	                <li class="nav-item">
+	                    <a class="nav-link" href="AboutUs.jsp">About us</a>
 	                </li>
 	                <li class="nav-item">
 	                    <a class="nav-link" href="jobs.jsp">Search for jobs</a>
@@ -96,34 +105,24 @@
          <img src="carousel-image-1.jpg" alt="image1" style="width:100%;">
         <div class="container">
           <div class="carousel-caption text-start">
-            <h1>For all the creators</h1>
-            <p>Break the barriers of reality - bring new ideas to life with Hinami.</p>
-            <p><a class="btn btn-lg btn-outline-light" href="#" role="button">Sign up today</a></p>
+            <h1 >For all gamers</h1>
+            <p>The ultimate gaming experience awaits</p>
+            <p><a class="btn btn-lg btn-outline-light" href="#" role="button">Learn more</a></p>
           </div>
         </div>
       </div>
       
       <div class="carousel-item ">
-         <img src="carousel-image-1.jpg" alt="image1" style="width:100%;">
+         <img src="carousel-image-2.jpg" alt="image1" style="width:100%;">
         <div class="container">
           <div class="carousel-caption text-start">
             <h1>For all the creators</h1>
             <p>Break the barriers of reality - bring new ideas to life with Hinami.</p>
-            <p><a class="btn btn-lg btn-outline-light" href="#" role="button">Sign up today</a></p>
+            <p><a class="btn btn-lg btn-outline-light" href="#" role="button">Join Us</a></p>
           </div>
         </div>
       </div>
-      <div class="carousel-item">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-
-        <div class="container">
-          <div class="carousel-caption text-end">
-            <h1>One more for good measure.</h1>
-            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-            <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
-          </div>
-        </div>
-      </div>
+      
     </div>
     <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -147,24 +146,33 @@
       <div class="col-lg-4">
         <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
 
-        <h2>Heading</h2>
-        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+        <h2>PC</h2>
+        <p>Our games are very well optimised so you can play on mostly any PC with very high setting and framerates </p>
         <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
         <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
 
-        <h2>Heading</h2>
-        <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+        <h2>Mobile</h2>
+        <p>Being so well optimised most of the PC games are also available on IOS and Android</p>
         <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
         <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
 
-        <h2>Heading</h2>
-        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+        <h2>Console</h2>
+        <p>Our games are available on the PS4, PS4 PRO, PS4 SLIM and XBOX ONE, XBOX ONE X as well as on the new PS5 and XBOX Series X</p>
         <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
+      
+      <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+
+        <h2>VR</h2>
+        <p>We have also one of the biggest availability of VR games that can be played on any VR headseat that was ever released, Oculus Rift, Oculus Quest, HTC VIVE and VIVE PRO, Valve Index to name a few</p>
+        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      
     </div><!-- /.row -->
 
 

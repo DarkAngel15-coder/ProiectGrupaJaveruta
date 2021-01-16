@@ -33,6 +33,7 @@
        
         <br>
         <br>
+        
         <p class="span_p">Publicat 14 Ian 2020 | Expira in 05 Feb 2021 </p>
         
         <h1 class="h1">Software Developer</h1> 
