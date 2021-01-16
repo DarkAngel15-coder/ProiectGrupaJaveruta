@@ -19,7 +19,7 @@
 <body class="backgroundv002">
 
     <!-- JSP File -->
-    <jsp:include page="main.jsp"></jsp:include>
+    <jsp:include page="navbar.jsp"></jsp:include>
     
     <!-- JavaScript  -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
